@@ -1,0 +1,45 @@
+.recProj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 20px;
+}
+
+.recProj__title{
+    font-size: 2rem;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.recProj__app{
+    padding-bottom: 30px;
+}
+
+.recProj__appName{
+    font-size: 1.5rem;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.recProj__lArrow, .recProj__rArrow{
+    padding-right: 26px;
+}
+
+.recProj__info{
+    display: flex;
+    
+}
+
+.recProj__appInfo{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (min-width:960px) {
+    .recProj__title{
+        font-size: 3.125rem;
+        font-family: 'Monteserrat', sans-serif;
+        padding-bottom: 77px;
+    }
+
+}

@@ -1,0 +1,36 @@
+.myProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 28px;
+    padding-inline: 30px;
+}
+
+.myProjects__title{
+    font-size: 2rem;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.myProjects__desc{
+    font-size: 1.25rem;
+    padding-bottom: 83px;
+    text-align: center;
+}
+
+@media screen and (min-width:960px) {
+
+    .myProjects{
+        gap: 56px;
+    }
+
+    .myProjects__title{
+        font-size: 2.25rem;
+    }
+
+    .myProjects__desc{
+        width: 756px;
+        font-size: 1.75rem;
+        line-height: 42px;
+    }
+}

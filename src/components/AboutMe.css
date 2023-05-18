@@ -1,0 +1,89 @@
+:root{
+    --grey:#828282;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-inline: 26px;
+    gap: 26px;
+}
+
+.about__title{
+    font-size: 2.5rem;
+    font-family: 'Monteserrat', sans-serif;
+    padding-bottom: 26px;
+}
+
+p{
+    padding-bottom: 26px;
+    font-size: 1.25rem;
+    line-height: 36px;
+    color: var(--grey);
+}
+
+.about__icons{
+    width: 17rem;
+    height: 2.5rem;
+    margin-bottom: 56px;
+}
+
+.about__skills{
+    padding-block: 26px;
+    font-size: 2rem;
+}
+
+@media screen and (min-width:960px) {
+
+    .about{
+        padding-inline: 180px 0px;
+    }
+
+    .about__para{
+        display: grid;
+        grid-template-areas:
+        "p1 laptop"
+        "p2 laptop"
+        "p3 laptop"
+        "p4 laptop"
+        "p5 laptop";
+        gap: 26px;
+    }
+
+    .about__p1{
+        grid-area: p1;
+    }
+    .about__p2{
+        grid-area: p2;
+    }
+    .about__p3{
+        grid-area: p3;
+    }
+    .about__p4{
+        grid-area: p4;
+    }
+    .about__p5{
+        grid-area: p5;
+    }
+    .about__laptop{
+        grid-area:laptop ;
+    }
+    .about__title{
+        font-size: 3.125rem;
+    }
+
+    .about__skills{
+        font-size: 2.25rem;
+        padding-top: 83px;
+    }
+
+    .about__icons{
+        width: 25rem;
+        height: auto;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}

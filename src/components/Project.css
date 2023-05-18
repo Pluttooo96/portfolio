@@ -1,0 +1,41 @@
+@media screen and (min-width:960px) {
+    
+.proj{
+    display: flex;
+    gap:69px;
+    margin-bottom: 11px;
+    width: 853px;
+}
+
+.proj__app{
+    display: flex;
+    width: 280px;
+    height: 280px
+}
+
+.proj__buttons{
+    display: flex;
+    gap: 26px;
+}
+
+.proj__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+
+.proj__appName{
+    font-size: 2rem;
+}
+
+.proj__appInfo{
+    font-size: 1.5rem;
+}
+
+.proj:nth-child(2n){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+}

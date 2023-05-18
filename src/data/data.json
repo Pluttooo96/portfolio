@@ -1,0 +1,37 @@
+[
+    {
+        "appName":"Advice generator app",
+        "appInfo":"Basic app using a fetch and Advice Slip JSON API. Written in JS and React.",
+        "appImg": "./advice-app.png",
+        "gitHub": "https://github.com/Pluttooo96/Advice-generator-app",
+        "liveURL": "https://pluttooo96.github.io/Advice-generator-app/"
+    },
+    {
+        "appName":"Order Summary Card",
+        "appInfo":"Simple project of order card summary. Written in JS and React.",
+        "appImg":"./order-summary-card.png",
+        "gitHub":"https://github.com/Pluttooo96/OrderSummaryCard",
+        "liveURL":"https://pluttooo96.github.io/OrderSummaryCard/"
+    },
+    {
+        "appName":"Insure landing page",
+        "appInfo":"Landing page of insure company. Written in JS and React",
+        "appImg":"./insure-landing-page.png",
+        "gitHub":"https://github.com/Pluttooo96/insure-landing-page",
+        "liveURL":"https://pluttooo96.github.io/insure-landing-page/"
+    },
+    {
+        "appName":"Rating App",
+        "appInfo":"App based on star-rating system",
+        "appImg":"./rating-app.png",
+        "gitHub":"https://github.com/Pluttooo96/ratingAppFEM",
+        "liveURL":"https://pluttooo96.github.io/ratingAppFEM/"
+    },
+    {
+        "p1":"I’m currently located in Wroclaw, Poland, but I can work remotely. Interested in the entire frontend spectrum and still learning and developing my skills. I’m still learning and exploring the vast world of web development. I am passionate about creating visually appealing and user-friendly websites and applications that enhance the user's experience.",
+        "p2":"I work in Python, JavaScript, React, and CSS and am constantly expanding my knowledge in these areas. As a beginner in this field, I am always eager to learn new skills and techniques to improve my work and stay up-to-date with the latest trends and technologies.",
+        "p3": "I enjoy the challenges that come with developing new projects and take pride in creating clean, well-organized code that is easy to maintain and update. I believe that attention to detail and a strong sense of design are essential to creating high-quality, functional websites that stand out from the crowd.",
+        "p4": "While I am still in the early stages of my career, I am excited to continue learning and growing as a developer. I am always open to new opportunities to gain experience and expand my skillset, and I am committed to providing the best possible solutions for my clients and their users.",
+        "p5": "Thank you for taking the time to learn a little more about me and my work as a front-end developer. Please feel free to reach out if you have any questions or would like to discuss a project. I look forward to working with you!"
+    }
+]
