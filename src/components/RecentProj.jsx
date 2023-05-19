@@ -82,20 +82,20 @@ const RecentProj = ({children}) =>{
                         app={data[1].appName}
                         appInfo={data[1].appInfo}
                         onClickGit={data[1].gitHub}
-                        onClickLive={data[1].liveUrl} />
+                        onClickLive={data[1].liveURL} />
                 <Project 
                         appImg={data[2].appImg} 
                         app={data[2].appName} 
                         appInfo={data[2].appInfo} 
                         onClickGit={data[2].gitHub}  
-                        onClickLive={data[2].liveUrl} />
+                        onClickLive={data[2].liveURL} />
                 {location.pathname === '/projects' ? 
                 <Project
                         appImg={data[3].appImg} 
                         app={data[3].appName} 
                         appInfo={data[3].appInfo} 
                         onClickGit={data[3].gitHub}  
-                        onClickLive={data[3].liveUrl} /> : null }
+                        onClickLive={data[3].liveURL} /> : null }
             </div>}
             { location.pathname !== '/projects' ? 
             <Button 
