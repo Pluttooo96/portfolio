@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
+import menu from './images/menu.svg'
+import home from './images/home.svg'
 
 const Navbar = () => {
 
@@ -59,7 +61,7 @@ const Navbar = () => {
                     >
                     <img 
                         className="navbar__home" 
-                        src="./home.svg" 
+                        src={home}
                         alt='home'/>
                 </Link>
                 <ul className={click ? "navbar__menu--active" : "navbar__menu"}>
@@ -97,7 +99,7 @@ const Navbar = () => {
                 {button && 
                 <img 
                     className="navbar__menu--btn" 
-                    src='./menu.svg' alt='burger-menu' 
+                    src={menu} alt='burger-menu' 
                     onClick={()=>handleClick()}
                 />}         
             </nav>

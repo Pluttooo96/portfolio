@@ -2,21 +2,18 @@
     {
         "appName":"Advice generator app",
         "appInfo":"Basic app using a fetch and Advice Slip JSON API. Written in JS and React.",
-        "appImg": "./advice-app.png",
         "gitHub": "https://github.com/Pluttooo96/Advice-generator-app",
         "liveURL": "https://pluttooo96.github.io/Advice-generator-app/"
     },
     {
         "appName":"Order Summary Card",
         "appInfo":"Simple project of order card summary. Written in JS and React.",
-        "appImg":"./order-summary-card.png",
         "gitHub":"https://github.com/Pluttooo96/OrderSummaryCard",
         "liveURL":"https://pluttooo96.github.io/OrderSummaryCard/"
     },
     {
         "appName":"Insure landing page",
         "appInfo":"Landing page of insure company. Written in JS and React",
-        "appImg":"./insure-landing-page.png",
         "gitHub":"https://github.com/Pluttooo96/insure-landing-page",
         "liveURL":"https://pluttooo96.github.io/insure-landing-page/"
     },

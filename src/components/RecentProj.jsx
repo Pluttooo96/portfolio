@@ -5,6 +5,12 @@ import { Button } from './Button.jsx'
 import Project from './Project.jsx'
 import { useLocation } from 'react-router-dom';
 import data from "../data/data.json";
+import app1 from './images/advice-app.png';
+import app2 from './images/order-summary-card.png';
+import app3 from './images/insure-landing-page.png';
+import app4 from './images/rating-app.png';
+
+
 
 const RecentProj = ({children}) =>{
 
@@ -72,26 +78,26 @@ const RecentProj = ({children}) =>{
             {!mobile &&
             <div className='recProj__desktop'>
                 <Project 
-                        appImg={data[0].appImg} 
+                        appImg={app1} 
                         app={data[0].appName} 
                         appInfo={data[0].appInfo} 
                         onClickGit={data[0].gitHub}  
                         onClickLive={data[0].liveURL} />
                 <Project 
-                        appImg={data[1].appImg}
+                        appImg={app2}
                         app={data[1].appName}
                         appInfo={data[1].appInfo}
                         onClickGit={data[1].gitHub}
                         onClickLive={data[1].liveURL} />
                 <Project 
-                        appImg={data[2].appImg} 
+                        appImg={app3} 
                         app={data[2].appName} 
                         appInfo={data[2].appInfo} 
                         onClickGit={data[2].gitHub}  
                         onClickLive={data[2].liveURL} />
                 {location.pathname === '/projects' ? 
                 <Project
-                        appImg={data[3].appImg} 
+                        appImg={app4} 
                         app={data[3].appName} 
                         appInfo={data[3].appInfo} 
                         onClickGit={data[3].gitHub}  
