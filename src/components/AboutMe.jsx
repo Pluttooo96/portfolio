@@ -3,6 +3,8 @@ import { Button } from './Button.jsx';
 import './AboutMe.css';
 import { useLocation } from 'react-router-dom';
 import data from "../data/data.json";
+import laptop from './images/laptop.png'
+import skills from './images/skills.svg'
 
 const AboutMe = () => {
 
@@ -33,7 +35,7 @@ const AboutMe = () => {
               <p className='about__p3'>{data[(data.length)-1].p3}</p>
               <p className='about__p4'>{data[(data.length)-1].p4}</p>
               <p className='about__p5'>{data[(data.length)-1].p5}</p>
-              {mobile ? <img className='about__laptop' src='./laptop.png' alt='about-laptop' /> : null}
+              {mobile ? <img className='about__laptop' src={laptop} alt='about-laptop' /> : null}
             </div>
             {location.pathname!=='/about' ?
             <Button 
@@ -44,7 +46,7 @@ const AboutMe = () => {
             <div className='about__skills'> My skills and <span> tools</span></div>
             <img 
               className='about__icons' 
-              src='./skills.svg' 
+              src={skills} 
               alt='skills' />          
         </div>
 
