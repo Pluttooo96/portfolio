@@ -65,7 +65,7 @@ const Navbar = () => {
                 <ul className={click ? "navbar__menu--active" : "navbar__menu"}>
                     <li className="navbar__item">
                         <Link 
-                            to='/about' 
+                            to='./about' 
                             className='navbar__redir'
                             onClick={closeMobileMenu}
                             >
@@ -74,7 +74,7 @@ const Navbar = () => {
                     </li>
                     <li className="navbar__item">
                         <Link 
-                            to='/projects' 
+                            to='./projects' 
                             className='navbar__redir'
                             onClick={closeMobileMenu}
                             >
