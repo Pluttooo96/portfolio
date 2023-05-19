@@ -20,7 +20,6 @@
     {
         "appName":"Rating App",
         "appInfo":"App based on star-rating system",
-        "appImg":"./rating-app.png",
         "gitHub":"https://github.com/Pluttooo96/ratingAppFEM",
         "liveURL":"https://pluttooo96.github.io/ratingAppFEM/"
     },
