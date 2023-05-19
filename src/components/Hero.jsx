@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
 import { Button } from "./Button";
+import laptop from './images/laptop.png'
+import skills from './images/skills.svg'
 
 
 const Hero = () =>{
@@ -40,9 +42,9 @@ const Hero = () =>{
               Get in touch!</Button>
             <div className='hero__skills'>
                 <div className='skills__text'>My skills and <span>tools</span></div>
-                <img className='skills__icons' src='./skills.svg' alt='skills' />
+                <img className='skills__icons' src={skills} alt='skills' />
             </div>
-            { mobile ? <img className='hero__laptop' src='./laptop.png' alt='hero-laptop' /> : null}
+            { mobile ? <img className='hero__laptop' src={laptop} alt='hero-laptop' /> : null}
         </div>
     )
 };
