@@ -1,6 +1,6 @@
 {
-  "homepage": "https://pluttooo96.github.io/portfolio",
   "name": "portfolio-app",
+  "homepage": "https://pluttooo96.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

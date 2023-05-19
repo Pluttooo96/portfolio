@@ -11,7 +11,7 @@ import Projects from './components/pages/Projects';
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename='/portfolio'>
         <Navbar />
         <Routes>
           <Route path='/portfolio' element={<Home />} />
