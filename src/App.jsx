@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx';
@@ -11,7 +11,7 @@ import Projects from './components/pages/Projects';
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path='/portfolio' element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects/>} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </>
   )
 }
