@@ -55,7 +55,7 @@ const Navbar = () => {
         <>
             <nav className="navbar">
                 <Link
-                    to='/'
+                    to='/portfolio'
                     >
                     <img 
                         className="navbar__home" 

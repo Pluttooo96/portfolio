@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as HashRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx';
@@ -14,7 +14,7 @@ function App() {
       <HashRouter basename='/portfolio'>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/portfolio' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects/>} />
         </Routes>
