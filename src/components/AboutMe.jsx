@@ -3,8 +3,8 @@ import { Button } from './Button.jsx';
 import './AboutMe.css';
 import { useLocation } from 'react-router-dom';
 import data from "../data/data.json";
-import laptop from './images/laptop.png'
-import skills from './images/skills.svg'
+import laptop from './images/laptop.png';
+import skills from './images/skills.svg';
 
 const AboutMe = () => {
 

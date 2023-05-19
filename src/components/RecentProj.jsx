@@ -9,7 +9,10 @@ import app1 from './images/advice-app.png';
 import app2 from './images/order-summary-card.png';
 import app3 from './images/insure-landing-page.png';
 import app4 from './images/rating-app.png';
-
+import dArrowR from './images/dark-arrow-right.svg';
+import lArrowR from './images/light-arrow-right.svg';
+import dArrowL from './images/dark-arrow-left.svg';
+import lArrowL from './images/light-arrow-left.svg';
 
 
 const RecentProj = ({children}) =>{
@@ -34,7 +37,7 @@ const RecentProj = ({children}) =>{
 
     
     const clickRight = () => {
-        if (num<data.length-1){
+        if (num<data.length-2){
             setNum(num+1)
         }
 
@@ -47,8 +50,9 @@ const RecentProj = ({children}) =>{
     }
     
 
-    const arrowRight = ['./dark-arrow-right.svg','./light-arrow-right.svg']
-    const arrowLeft = ['./dark-arrow-left.svg','./light-arrow-left.svg', ]
+    const arrowRight = [dArrowR,lArrowR]
+    const arrowLeft = [dArrowL,lArrowL]
+    const mobileAppImg = [app1, app2, app3, app4]
     
 
     return(
@@ -56,12 +60,12 @@ const RecentProj = ({children}) =>{
             <div className='recProj__title'> {children} </div>
             {mobile && 
             <>
-            <img className='recProj__app' src={data[num].appImg} alt='app-img' />
+            <img className='recProj__app' src={mobileAppImg[num]} alt='app-img' />
             <div className='recProj__appName'>{data[num].appName}</div>
             <div className='recProj__info'>
                 <img className='recProj__rArrow' src={num!==0 ? arrowLeft[0] : arrowLeft[1]} alt='arrow-left' onClick={clickLeft} /> 
                 <div className='recProj__appInfo'>{data[num].appInfo}</div>
-                <img className='recProj__lArrow' src={num!==data.length-1 ? arrowRight[0] : arrowRight[1]} alt='arrow-right' onClick={clickRight}/>
+                <img className='recProj__lArrow' src={num!==data.length-2 ? arrowRight[0] : arrowRight[1]} alt='arrow-right' onClick={clickRight}/>
             </div>
             <Button
                 className = 'recProj__btn' 

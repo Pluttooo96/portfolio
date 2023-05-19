@@ -12,7 +12,9 @@
 }
 
 .recProj__app{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: auto;
 }
 
 .recProj__appName{
