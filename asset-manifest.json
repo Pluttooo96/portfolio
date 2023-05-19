@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2a7297f9.css",
-    "main.js": "/portfolio/static/js/main.99539cc0.js",
+    "main.js": "/portfolio/static/js/main.ca194cd2.js",
     "static/media/laptop.png": "/portfolio/static/media/laptop.969ea2ec17dd49f78496.png",
+    "static/media/insure-landing-page.png": "/portfolio/static/media/insure-landing-page.060381ea677055a74123.png",
+    "static/media/order-summary-card.png": "/portfolio/static/media/order-summary-card.395c51de308c5838b11d.png",
+    "static/media/rating-app.png": "/portfolio/static/media/rating-app.d24cbba1a557e8f5480e.png",
+    "static/media/advice-app.png": "/portfolio/static/media/advice-app.038966f5c6da847a6fa5.png",
     "static/media/skills.svg": "/portfolio/static/media/skills.43e473764f727afbf41389205cd9fbda.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.6d962c4f9cb54e9e40b145cd22bce530.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.118ab9bea8d237f4a5c53c71b5238f14.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.5af8916a36119dcdc3872c620c297d82.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/home.svg": "/portfolio/static/media/home.df9e5fcfcf1fe608d70b2dd699e39463.svg",
+    "static/media/menu.svg": "/portfolio/static/media/menu.589042602b3354e5a7a43c120375f8c1.svg",
+    "static/media/line.svg": "/portfolio/static/media/line.bb8f4ec069c5fcd3b0da8c50debc6f26.svg",
     "main.2a7297f9.css.map": "/portfolio/static/css/main.2a7297f9.css.map",
-    "main.99539cc0.js.map": "/portfolio/static/js/main.99539cc0.js.map"
+    "main.ca194cd2.js.map": "/portfolio/static/js/main.ca194cd2.js.map"
   },
   "entrypoints": [
     "static/css/main.2a7297f9.css",
-    "static/js/main.99539cc0.js"
+    "static/js/main.ca194cd2.js"
   ]
 }
